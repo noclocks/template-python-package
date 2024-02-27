@@ -8,6 +8,7 @@
 
 ### Bug Fixes
 
+- Bump flake8-bugbear from 23.5.9 to 24.2.6
 - Bump microsoft/action-python from 0.6.4 to 0.7.2
 
 ### Documentation
