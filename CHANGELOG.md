@@ -8,8 +8,11 @@
 
 ### Bug Fixes
 
+- Bump pre-commit from 3.3.1 to 3.6.2
+- Bump shellcheck-py from 0.9.0.2 to 0.9.0.6
 - Bump bandit[toml] from 1.7.5 to 1.7.7
 - Bump pytest-cov from 4.0.0 to 4.1.0
+- Bump black from 23.3.0 to 24.2.0
 - Update pytest-mock requirement from <3.10.1 to <3.12.1
 - Bump flake8-bugbear from 23.5.9 to 24.2.6
 - Bump microsoft/action-python from 0.6.4 to 0.7.2
