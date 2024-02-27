@@ -8,6 +8,8 @@
 
 ### Bug Fixes
 
+- Bump pytest from 7.3.1 to 8.0.2
+- Bump pylint from 2.17.4 to 3.1.0
 - Bump pre-commit from 3.3.1 to 3.6.2
 - Bump shellcheck-py from 0.9.0.2 to 0.9.0.6
 - Bump bandit[toml] from 1.7.5 to 1.7.7
