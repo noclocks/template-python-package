@@ -8,6 +8,7 @@
 
 ### Bug Fixes
 
+- Bump pytest from 8.0.2 to 8.1.0
 - Bump pytest from 7.3.1 to 8.0.2
 - Bump pylint from 2.17.4 to 3.1.0
 - Bump pre-commit from 3.3.1 to 3.6.2
