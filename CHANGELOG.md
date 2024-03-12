@@ -8,6 +8,7 @@
 
 ### Bug Fixes
 
+- Bump pytest from 8.1.0 to 8.1.1
 - Bump bandit[toml] from 1.7.7 to 1.7.8
 - Bump pytest from 8.0.2 to 8.1.0
 - Bump pytest from 7.3.1 to 8.0.2
