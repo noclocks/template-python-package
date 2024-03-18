@@ -8,6 +8,7 @@
 
 ### Bug Fixes
 
+- Bump black from 24.2.0 to 24.3.0
 - Bump shellcheck-py from 0.9.0.6 to 0.10.0.1
 - Bump pytest from 8.1.0 to 8.1.1
 - Bump bandit[toml] from 1.7.7 to 1.7.8
