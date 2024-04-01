@@ -8,6 +8,7 @@
 
 ### Bug Fixes
 
+- Bump pytest-cov from 4.1.0 to 5.0.0
 - Update pytest-mock requirement from <3.12.1 to <3.14.1
 - Bump black from 24.2.0 to 24.3.0
 - Bump shellcheck-py from 0.9.0.6 to 0.10.0.1
