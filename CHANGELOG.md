@@ -8,6 +8,7 @@
 
 ### Bug Fixes
 
+- Bump black from 24.3.0 to 24.4.2
 - Attempt to fix dependabot.yml automerge
 - Bump pre-commit from 3.6.2 to 3.7.0
 - Bump pytest-cov from 4.1.0 to 5.0.0
