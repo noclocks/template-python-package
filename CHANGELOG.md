@@ -8,6 +8,8 @@
 
 ### Bug Fixes
 
+- Bump pytest from 8.1.1 to 8.2.0
+- Bump flake8-bugbear from 24.2.6 to 24.4.26
 - Bump black from 24.3.0 to 24.4.2
 - Attempt to fix dependabot.yml automerge
 - Bump pre-commit from 3.6.2 to 3.7.0
