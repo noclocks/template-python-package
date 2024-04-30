@@ -1,8 +1,6 @@
 version: 2
 updates:
 
-# Python pip Packages
-# --------------------------
   - package-ecosystem: pip
     directory: "/"
     schedule:
@@ -11,27 +9,18 @@ updates:
     labels:
       - dependencies
       - cicd
-    versioning-strategy: lockfile-only
     open-pull-requests-limit: 5
     commit-message:
       prefix: "chore: "
-    # reviewers:
-    #   - jimbrig
-    # allow:
-    #   - dependency-type: direct
-    #   - dependency-type: indirect
     
-
-# GitHub Actions/Workflows
-# ----------------------------
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "13:00"
-  labels:
-    - dependencies
-    - cicd
-  open-pull-request-limit: 3
-  commit-message:
-    prefix: "chore: "
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "13:00"
+    labels:
+      - dependencies
+      - cicd
+    open-pull-request-limit: 3
+    commit-message:
+      prefix: "chore: "
