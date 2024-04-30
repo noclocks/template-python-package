@@ -8,6 +8,8 @@
 
 ## Bug Fixes
 
+- Remove unused key-value pairs from dependabot.yml ([c9ff2bf](https://github.com/noclocks/template-python-package/commit/c9ff2bffbb5e4a5418c443ac8e3a1444395a3486))  - (Jimmy Briggs)
+- Fix dependabot.yml ([7f19b7d](https://github.com/noclocks/template-python-package/commit/7f19b7dbd39aa2b7883b7fa1bbed4f0a65b384ad))  - (Jimmy Briggs)
 - Bump pytest from 8.1.1 to 8.2.0 ([b4d7b27](https://github.com/noclocks/template-python-package/commit/b4d7b27ab961f34863c7bcaee40ed88c490758df))  - (dependabot[bot])
 - Bump flake8-bugbear from 24.2.6 to 24.4.26 ([8ea60bd](https://github.com/noclocks/template-python-package/commit/8ea60bd6dcee8f6c969349f77fe8c57f937f510f))  - (dependabot[bot])
 - Bump black from 24.3.0 to 24.4.2 ([178de13](https://github.com/noclocks/template-python-package/commit/178de135babdaf35d6a6a573a031e31d8b696d81))  - (dependabot[bot])
@@ -33,6 +35,7 @@
 
 ## Configuration
 
+- Update dependabot.yml ([28973f7](https://github.com/noclocks/template-python-package/commit/28973f77a508474e3c29e53fcf00e5cf478ed6fa))  - (Jimmy Briggs)
 - Add example requirements.txt ([e3058bd](https://github.com/noclocks/template-python-package/commit/e3058bd67cb7ea1712b71641e42a3661deeffa75))  - (Jimmy Briggs)
 - Add .python-version for pyenv ([926261f](https://github.com/noclocks/template-python-package/commit/926261f98aeec22b779cd38e96168fe49d7c1a82))  - (Jimmy Briggs)
 - Update changelog.yml ([7ee5696](https://github.com/noclocks/template-python-package/commit/7ee5696b36330c244f3c41e3d581ddb9b75c493c))  - (Jimmy Briggs)
@@ -45,6 +48,9 @@
 
 ## Features
 
+- Add release.yml ([82ce7ce](https://github.com/noclocks/template-python-package/commit/82ce7ce00e4c05ca97689f79f7b212a21af6d576))  - (Jimmy Briggs)
+- Add .github/release-drafter.yml configuration ([19709d1](https://github.com/noclocks/template-python-package/commit/19709d1891d56aa5109225543b6cfdd6cdbf9d0b))  - (Jimmy Briggs)
+- Add github issue labels metadata specifications (.github/labels.yml) ([9ce731d](https://github.com/noclocks/template-python-package/commit/9ce731de11629e813c5a42cedddbe60299ff196b))  - (Jimmy Briggs)
 - Add addition module src/pkg/addition.py ([44ac8b0](https://github.com/noclocks/template-python-package/commit/44ac8b00131e96a69bb6c4716061d4d6fdf7da2d))  - (Jimmy Briggs)
 - Add dependabot.yml auto-merge workflow ([d10bf04](https://github.com/noclocks/template-python-package/commit/d10bf0431024370de0a6c003788222090a42f58e))  - (Jimmy Briggs)
 
