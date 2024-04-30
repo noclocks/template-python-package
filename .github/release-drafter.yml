@@ -1,0 +1,2 @@
+# https://github.com/ansible/team-devtools/blob/main/.github/release-drafter.yml
+_extends: ansible-community/devtools
