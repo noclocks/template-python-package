@@ -1,0 +1,63 @@
+# Issue Label Metadata - Ordered Alphabetically
+# https://github.com/marketplace/actions/github-labeler
+
+- name: bug
+  color: 'd73a4a'
+  description: 'Related to a bug in the source code (i.e. something is not working).'
+- name: cicd
+  color: 'f7c6c7'
+  description: 'Issues/PRs related to CI/CD and/or GitHub Actions/Workflows.'
+- name: config
+  color: '8ed92e'
+  description: 'Configuration and meta-infrastructural changes.'
+- name: data
+  color: 'FAA631'
+  description: 'Issues pertaining to data or data preparations.'
+- name: dependencies
+  color: 'f7c6c7'
+  description: 'Issues/PRs related to dependencies.'
+- name: deprecated
+  color: 'fef2c0'
+  description: 'Indicates that the issue is related to a deprecated feature.'
+- name: docs
+  color: '4071a5'
+  description: 'Improvements or additions to documentation.'
+- name: duplicate
+  color: 'cfd3d7'
+  description: 'This issue or pull request already exists.'
+- name: enhancement
+  color: 'a2eeef'
+  description: 'Potential future feature planning and requests.'
+- name: feature
+  color: '1B6659'
+  description: 'New enhancements and features requests.'
+- name: major
+  color: 'b60205'
+  description: 'Marks a major change in the codebase (likely also a breaking change).'
+- name: packaging
+  color: 'd4c5f9'
+  description: 'Issues related to packaging.'
+- name: performance
+  color: 'f9d0c4'
+  description: 'Issues related to performance.'
+- name: question
+  color: 'd876e3'
+  description: 'Further information requested.'
+- name: refactor
+  color: 'D0EFCD'
+  description: 'Code refactoring.'
+- name: release
+  color: '108a51'
+  description: 'Indicates a new release.'
+- name: security
+  color: 'f7c6c7'
+  description: 'Issues/PRs related to security.'
+- name: stale
+  color: 'eeeee'
+  description: 'Issues that have gone stale and need to be revisited/closed.'
+- name: tests
+  color: 'e4e669'
+  description: 'Issues related to tests.'
+- name: wontfix
+  color: 'ffffff'
+  description: 'This will not be worked on.'
