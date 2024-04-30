@@ -45,6 +45,7 @@
 
 ## Features
 
+- Add addition module src/pkg/addition.py ([44ac8b0](https://github.com/noclocks/template-python-package/commit/44ac8b00131e96a69bb6c4716061d4d6fdf7da2d))  - (Jimmy Briggs)
 - Add dependabot.yml auto-merge workflow ([d10bf04](https://github.com/noclocks/template-python-package/commit/d10bf0431024370de0a6c003788222090a42f58e))  - (Jimmy Briggs)
 
 ## Refactoring
