@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  pypi:
+    name: Publish to PyPI
+    environment: release
+    runs-on: ubuntu-latest
+    env:
+      FORCE_COLOR: 1
+      PY_COLORS: 1
+      TOXENV: packaging
+      TOX_PARALLEL_NO_SPINNER: 1
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # needed by setuptools-scm          
+      - name: Setup Python
+        id: setup-python
+        uses: actions/setup-python@v5
+      - name: Install tox
+        run: >-
+          python3 -m
+          pip install
+          --user
+          tox
+      - name: Build dists
+        run: python -m tox
+      - name: Publish to pypi.org
+        if: >- # "create" workflows run separately from "push" & "pull_request"
+          github.event_name == 'release'
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_PASSWORD }}
+  
