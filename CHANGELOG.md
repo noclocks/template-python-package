@@ -35,6 +35,7 @@
 
 ## Configuration
 
+- Update mkdocs.yml ([0583696](https://github.com/noclocks/template-python-package/commit/0583696633ca7ce1016dba8a65bce71ee9cd344b))  - (Jimmy Briggs)
 - Update dependabot.yml ([28973f7](https://github.com/noclocks/template-python-package/commit/28973f77a508474e3c29e53fcf00e5cf478ed6fa))  - (Jimmy Briggs)
 - Add example requirements.txt ([e3058bd](https://github.com/noclocks/template-python-package/commit/e3058bd67cb7ea1712b71641e42a3661deeffa75))  - (Jimmy Briggs)
 - Add .python-version for pyenv ([926261f](https://github.com/noclocks/template-python-package/commit/926261f98aeec22b779cd38e96168fe49d7c1a82))  - (Jimmy Briggs)
