@@ -43,6 +43,7 @@
 
 ## Documentation
 
+- Add ADRs index (docs/decisions/index.md) ([389cac9](https://github.com/noclocks/template-python-package/commit/389cac99dcb68620df6d83e265a9c0d40a306db5))  - (Jimmy Briggs)
 - Create docs/about.md ([5877a6e](https://github.com/noclocks/template-python-package/commit/5877a6ef908db9fd45c2608095e012a938838c17))  - (Jimmy Briggs)
 - Add content to docs/index.md ([e011516](https://github.com/noclocks/template-python-package/commit/e0115164c5a54214aa5594e7889990de3fffd728))  - (Jimmy Briggs)
 - Update src/README.md with src information and structure ([d118126](https://github.com/noclocks/template-python-package/commit/d1181265fa07ea44bf9df951696a1caf38d108de))  - (Jimmy Briggs)
