@@ -48,6 +48,7 @@
 
 ## Refactoring
 
+- Add tests/__init__.py ([67c7525](https://github.com/noclocks/template-python-package/commit/67c7525d7fad7d43f36b71f31da40ec1170adeb5))  - (Jimmy Briggs)
 - Delete .github/cliff.toml ([e4ff84f](https://github.com/noclocks/template-python-package/commit/e4ff84fdb87b8495cca7c4b956bbaa3cd5ee4dd6))  - (Jimmy Briggs)
 
 ***
