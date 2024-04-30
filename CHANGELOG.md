@@ -40,6 +40,7 @@
 
 ## Documentation
 
+- Update src/README.md with src information and structure ([d118126](https://github.com/noclocks/template-python-package/commit/d1181265fa07ea44bf9df951696a1caf38d108de))  - (Jimmy Briggs)
 - Add README ([4b64c1e](https://github.com/noclocks/template-python-package/commit/4b64c1ed1e3d417b07e4f2d13794572111a69834))  - (Jimmy Briggs)
 
 ## Features
